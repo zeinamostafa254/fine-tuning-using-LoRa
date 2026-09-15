@@ -1,0 +1,22 @@
+[project]
+name = "fine-tuning-using-lora"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "zeina", email = "zeinaelsadek25@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.15.0",
+    "datasets>=5.0.1",
+    "peft>=0.20.0",
+    "transformers>=5.17.0",
+]
+
+[project.scripts]
+fine-tuning-using-lora = "fine_tuning_using_lora:main"
+
+[build-system]
+requires = ["uv_build>=0.12.10,<0.13.0"]
+build-backend = "uv_build"
