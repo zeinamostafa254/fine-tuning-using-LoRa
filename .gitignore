@@ -1,0 +1,88 @@
+ 
+# Python
+ 
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+ 
+# Virtual Environment
+ 
+.venv/
+venv/
+env/
+
+ 
+# Environment Variables
+ 
+.env
+.env.*
+!.env.example
+
+ 
+# Jupyter
+ 
+.ipynb_checkpoints/
+
+ 
+# IDE / Editors
+ 
+.vscode/
+.idea/
+*.swp
+*.swo
+
+ 
+# OS
+ 
+.DS_Store
+Thumbs.db
+desktop.ini
+
+ 
+# Large Dataset Files
+ 
+data/*.csv
+data/*.zip
+data/*.rar
+
+ 
+# Model Checkpoints
+ 
+models/*/checkpoint-*/
+
+ 
+# Experiment / Training Logs
+ 
+runs/
+logs/
+wandb/
+mlruns/
+
+ 
+# Temporary Files
+ 
+*.tmp
+*.temp
+*.log
+
+ 
+# Streamlit
+ 
+.streamlit/secrets.toml
+
+ 
+# Python Build Files
+ 
+build/
+dist/
+*.egg-info/
+
+ 
+# Cache
+ 
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
